@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Make a variable called name and set it equal to Dane.
+// Then write a conditional that if the name variable is equal to Mary, log 'Hi, Mary!'
+// if it is not equal to Mary, write "How do you do?"
+//console.log 'How do you do?'
 
 //CODE
 /*
