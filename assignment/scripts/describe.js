@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Create an undefined variable called secret.
+// Creat a variable called code and set it equal to = 123.
+// Create a conditional and state that if the code is equal to 123, the secret is super, 
+//or if the code is larger than 250, the secret is duper.
+// The code is equal to 123, so we console.log secret.
 
 //CODE
 /*
@@ -70,10 +71,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Create three variables, isStudent = true, age = 34, zip = 55407
+// Create a conditional with four options based on the variables.
+// If the Boolean statemen, student, is correct and the zip is larger than 80000, 
+//console.log 'You're a student on the West Coast!'
+//else if isStudent is fale, and the age is under 30, console.log 'what are your hobbies?'
+//else if isStudent is true, console.log 'Welcome to Prime!'
+//else, console.log 'How's the weather?'
 
 //CODE
 /*
@@ -135,7 +139,9 @@ let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+  FIX - colorTwo also needs to be set to 'purple' so mix is true. 
   colorOne = 'purple';
+
 }
 */
 
