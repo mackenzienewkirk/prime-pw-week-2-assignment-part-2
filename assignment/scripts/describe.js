@@ -151,6 +151,7 @@ if (mix === true) {
 
 /*
 let temp = 40;
+FIX - time should not be a const because it is possible to change, and isn't stated so in the description.
 const time = 4;
 
 if (temp > 39 || time >= 4) {
@@ -166,6 +167,7 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+FIX- the console.log for minAge <= age should be 'enter' instead of 'no entry' because the minAge is equal to age.
 if(minAge <= age) {
   console.log('no entry');
 } else {
