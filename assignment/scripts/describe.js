@@ -49,7 +49,7 @@ if (name === 'Mary') {
 // Creat a variable called code and set it equal to = 123.
 // Create a conditional and state that if the code is equal to 123, the secret is super, 
 //or if the code is larger than 250, the secret is duper.
-// The code is equal to 123, so we console.log secret.
+// The code is equal to 246, so we console.log secret.
 
 //CODE
 /*
@@ -73,11 +73,12 @@ console.log(secret)
 // 3. WRITE YOUR DESCRIPTION HERE
 // Create three variables, isStudent = true, age = 34, zip = 55407
 // Create a conditional with four options based on the variables.
-// If the Boolean statemen, student, is correct and the zip is larger than 80000, 
+// If the Boolean statement, student, is correct and the zip is larger than 80000, 
 //console.log 'You're a student on the West Coast!'
 //else if isStudent is fale, and the age is under 30, console.log 'what are your hobbies?'
 //else if isStudent is true, console.log 'Welcome to Prime!'
 //else, console.log 'How's the weather?'
+//Because the zip is less than 80,000 and isStudent = true, console.log 'Welcome to Prime!'
 
 //CODE
 /*
@@ -134,6 +135,7 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+FIX - The variable values colorOne and colorTwo are switched. 
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -154,6 +156,7 @@ let temp = 40;
 FIX - time should not be a const because it is possible to change, and isn't stated so in the description.
 const time = 4;
 
+FIX - the OR || needs to be switched to AND &&
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
